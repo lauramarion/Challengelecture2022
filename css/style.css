@@ -22,6 +22,7 @@ h1.bigtitle{
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
+      background-clip: text;
 }
 h2.maintitle{
   color: #D23026;
