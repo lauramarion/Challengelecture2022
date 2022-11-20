@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Lexend";
+  src: url("./Lexend-VariableFont_wght.ttf");
+}
+
+
+body {
+    font-family: "Lexend",sans-serif;
+    font-weight: 300;
+}
+
+h1.bigtitle{
+  text-align: center;
+  font-family: "Lexend",sans-serif;
+  font-weight: 800;
+  font-size: 9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: #1D2142;
+      background-image: linear-gradient(45deg, #1D2142, #3E0412);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+}
+h2.maintitle{
+  color: #D23026;
+  text-align: center;
+  font-size: 2rem;
+  font-weight:500;
+  margin-top: 2rem;
+}
+h3.soustitres{
+  color: #1D2142;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#main-title {
+}
+
+.floating-menu {
+    padding: 5px;;
+    width: 400px;
+    z-index: 100;
+    position: fixed;
+  }
+.floating-menu a{
+  font-family: "Lexend",sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 1.8rem;
+  margin-left: 3rem;
+  display: block;
+  color: #1D2142;
+    }
+
+label {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: .3px;
+    margin-bottom: 2px;
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+    color: #81BBB3;
+    background-color: transparent;
+}
+
+.btn {
+    font-size: 11px;
+    padding: 8px 26px 6px;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    outline: none;
+    -webkit-transition: 0.15s linear;
+    transition: 0.15s linear;
+}
+
+text {
+    font-size: 16px;
+}
+
+text.valueLabel {
+    font-weight: 300;
+    fill: #505050;
+    dominant-baseline: middle;
+}
+
+text.timeText {
+    font-size: 20px;
+    font-weight: 700;
+    fill: #505050;
+}
+
+.xAxis > .tick line {
+    shape-rendering: CrispEdges;
+    stroke: #cecece;
+}
+
+.xAxis > .tick line.origin {
+    stroke: #aaaaaa;
+}
+
+.tick text {
+    fill: #6f6f6f;
+}
+
+.progressBar {
+    fill: #505050;
+}
+
+.tAxis > .tick line {
+    shape-rendering: CrispEdges;
+    stroke: #aaaaaa;
+}
+
+.xAxis > path.domain {
+    display: none;
+}
+
+.tAxis > path.domain {
+    color: #aaaaaa;
+}
+
+text.label {
+    font-weight: 600;
+    fill: #202020;
+    dominant-baseline: middle;
+
+}
+
+.xAxis .tick:nth-child(2) text {
+    text-anchor: start;
+}
+
+
+
+.section {
+    background: #f3f4f4;
+    position: relative;
+    border-bottom: none;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+.section2 {
+    background: #D3E5E3;
+    position: relative;
+    border-bottom: none;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+.card-vert{
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#1A9988;
+    background-clip:border-box;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.clair {
+  background-color:#81BBB3;
+  }
+.clairclair {
+    background-color:#B3E4DE;
+    }
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.53125rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .9375rem;
+    line-height: 1.9;
+    color: #999;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaeff4;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+/* import de bordel.css */
+a{
+    color:#1A9988;
+    text-decoration:none;
+    background-color:transparent
+}
+a:hover{
+    color:#14695E;
+    text-decoration:underline
+}
+a:not([href]){
+    color:inherit;
+    text-decoration:none
+}
+a:not([href]):hover{
+    color:inherit;
+    text-decoration:none
+}
+.texte1{
+  text-align: center;
+  margin-top:1em;
+}
+.texte2{
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top:1em;
+}
+/* IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG   */
+img.slide{
+  width: 100%;
+  border-radius: 1rem;
+}
+img.slide80{
+  width: 80%;
+}
+.margin80{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+img.logo{
+  width: 10%;
+  text-align: center;
+  margin-top: -1rem;
+}
+div.logo{
+  width: 100%;
+  text-align: center;
+}
+
+/* REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK ---  */
+
+label.reveal {
+  display: block;
+  color: #1D2142;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+margin-bottom: 1rem;
+}
+label:hover {
+  color: #3A4181;
+}
+input {
+  position: absolute;
+  left: -999em;
+}
+.hide {
+  opacity: 0;
+  max-height: 0;
+  border: none;
+
+}
+.hide p {
+  padding: 10px;
+  margin: 0;
+}
+.reveal input[type="checkbox"]:checked + div {
+  width: 99%;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+}
+
+
+/* REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK ---  */
