@@ -104,7 +104,15 @@ background-color:#81BBB3;
 .clairclair {
 background-color:#B3E4DE;
 }
-
+.texte1{
+  text-align: center;
+  margin-top:1em;
+}
+.texte2{
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top:1em;
+}
   /* BAR RACE CHART --- BAR RACE CHART --- BAR RACE CHART --- BAR RACE CHART --- 
 */
 label {
@@ -218,15 +226,7 @@ a:not([href]):hover{
     color:inherit;
     text-decoration:none
 }
-.texte1{
-  text-align: center;
-  margin-top:1em;
-}
-.texte2{
-  font-size: 0.8rem;
-  text-align: center;
-  margin-top:1em;
-}
+
 
 /* IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG   */
 img.slide{
