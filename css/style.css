@@ -265,7 +265,7 @@ margin-bottom: 1rem;
 label:hover {
   color: #3A4181;
 }
-input {
+input.lereveal {
   position: absolute;
   left: -999em;
 }

@@ -60,10 +60,6 @@ hr{
     overflow:visible
 }
 
-p{
-    margin-top:0;
-    margin-bottom:1rem
-}
 abbr[data-original-title],abbr[title]{
     text-decoration:underline;
     -webkit-text-decoration:underline dotted;
@@ -78,7 +74,7 @@ address{
     font-style:normal;
     line-height:inherit
 }
-dl,ol,ul{
+dl,ol,ul,p{
     margin-top:0;
     margin-bottom:1rem
 }
