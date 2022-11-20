@@ -130,10 +130,10 @@ label {
 
 .btn {
     font-size: 11px;
-    padding: 8px 26px 6px;
+    padding: 8px 20px 6px;
     letter-spacing: 1.7px;
     text-transform: uppercase;
-    border-radius: 2px;
+    border-radius: 5px;
     outline: none;
     -webkit-transition: 0.15s linear;
     transition: 0.15s linear;

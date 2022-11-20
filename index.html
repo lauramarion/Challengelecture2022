@@ -70,6 +70,19 @@ Challenge Lecture - Octobre 2022
               </div>
             </div>
           </div>
+
+          <div class="container">
+            <div class="card-vert clairclair">
+                <div class="reveal">
+                  <label class="reveal" for="webtoonmoy">Webtoon moyen ?</label>
+                  <input class="lereveal" type="checkbox" name="one" id="webtoonmoy">
+                    <div class="hide">
+                      <img class="slide margin80" src="./img/slide06.png" />
+                      <img class="slide margin80" src="./img/slide07.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
   </section>
 
 <main class="main-content" id="app">
@@ -140,9 +153,9 @@ Challenge Lecture - Octobre 2022
       </div>
       <div id="chart-card" class="card">
         <div class="card-body position-relative">
-          <div class="text-right mb-4">
-            <button type="button" class="btn btn-xs btn-outline-primary" v-on:click="stopRace">Stop</button>
+          <div>
             <button type="button" class="btn btn-xs btn-outline-primary" v-on:click="checkForm">Restart</button>
+            <button type="button" class="btn btn-xs btn-outline-primary" v-on:click="stopRace">Stop</button>
           </div>
           <h5 class="card-title" id="graph-title">((title))</h5>
           <div id="chartDiv" style="width:100%; height: 650px"></div>
