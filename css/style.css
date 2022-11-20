@@ -3,7 +3,6 @@
   src: url("./Lexend-VariableFont_wght.ttf");
 }
 
-
 body {
     font-family: "Lexend",sans-serif;
     font-weight: 300;
@@ -39,8 +38,10 @@ h3.soustitres{
   margin-top: 1rem;
 }
 
+/*
 #main-title {
 }
+*/
 
 .floating-menu {
     padding: 5px;;
@@ -58,6 +59,54 @@ h3.soustitres{
   color: #1D2142;
     }
 
+    
+/* SECTIONS ET CARTES --- SECTIONS ET CARTES --- SECTIONS ET CARTES --- SECTIONS ET CARTES --- */
+.section {
+  background: #f3f4f4;
+  position: relative;
+  border-bottom: none;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+.section2 {
+  background: #D3E5E3;
+  position: relative;
+  border-bottom: none;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+.card-vert{
+  position:relative;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  min-width:0;
+  word-wrap:break-word;
+  background-color:#1A9988;
+  background-clip:border-box;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.clair {
+background-color:#81BBB3;
+}
+.clairclair {
+background-color:#B3E4DE;
+}
+
+  /* BAR RACE CHART --- BAR RACE CHART --- BAR RACE CHART --- BAR RACE CHART --- 
+*/
 label {
     font-weight: 400;
     font-size: 13px;
@@ -88,7 +137,6 @@ text {
 text.valueLabel {
     font-weight: 300;
     fill: #505050;
-    dominant-baseline: middle;
 }
 
 text.timeText {
@@ -130,78 +178,29 @@ text.timeText {
 text.label {
     font-weight: 600;
     fill: #202020;
-    dominant-baseline: middle;
-
 }
 
 .xAxis .tick:nth-child(2) text {
     text-anchor: start;
 }
-
-
-
-.section {
-    background: #f3f4f4;
-    position: relative;
-    border-bottom: none;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
-}
-.section2 {
-    background: #D3E5E3;
-    position: relative;
-    border-bottom: none;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
-}
-.card-vert{
-    position:relative;
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-direction:column;
-    flex-direction:column;
-    min-width:0;
-    word-wrap:break-word;
-    background-color:#1A9988;
-    background-clip:border-box;
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 25px;
-}
-
-.clair {
-  background-color:#81BBB3;
-  }
-.clairclair {
-    background-color:#B3E4DE;
-    }
-
-
 .form-control {
-    display: block;
-    width: 100%;
-    height: calc(2.53125rem + 2px);
-    padding: .375rem .75rem;
-    font-size: .9375rem;
-    line-height: 1.9;
-    color: #999;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #eaeff4;
-    border-radius: 2px;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+  display: block;
+  width: 100%;
+  height: calc(2.53125rem + 2px);
+  padding: .375rem .75rem;
+  font-size: .9375rem;
+  line-height: 1.9;
+  color: #999;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #eaeff4;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-/* import de bordel.css */
+
+/* import de bordel.css  --- import de bordel.css --- import de bordel.css --- import de bordel.css */
 a{
     color:#1A9988;
     text-decoration:none;
@@ -228,6 +227,7 @@ a:not([href]):hover{
   text-align: center;
   margin-top:1em;
 }
+
 /* IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG  IMG IMG   */
 img.slide{
   width: 100%;
