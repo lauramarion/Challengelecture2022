@@ -126,6 +126,17 @@ h3.soustitres {
 }
 .clairblanc {
   background-color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
 }
 
 .texte1 {
