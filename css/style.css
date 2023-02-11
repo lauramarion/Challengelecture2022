@@ -331,3 +331,15 @@ input.lereveal {
 
 
 /* REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK ---  */
+/* IMAGE SWAP ON HOVER */
+a.hovering img:last-child {
+  display: none;  
+}
+a.hovering:hover img:last-child {
+  display: block;  
+}
+a.hovering:hover img:first-child {
+  display: none;  
+}
+
+/* IMAGE SWAP ON HOVER */
