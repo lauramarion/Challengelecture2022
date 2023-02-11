@@ -264,9 +264,12 @@ img.slide {
 
 img.slide80 {
   width: 80%;
+  text-align: center;
 }
 img.slide40 {
   width: 40%;
+  text-align: center;
+  margin: 1rem;
 }
 .margin80 {
   margin-top: 2rem;
