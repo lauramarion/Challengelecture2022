@@ -7,6 +7,9 @@ body {
   font-family: "Lexend", sans-serif;
   font-weight: 300;
 }
+.center {
+text-align: center;
+}
 
 h1.bigtitle {
   text-align: center;
@@ -343,3 +346,24 @@ a.hovering:hover img:first-child {
 }
 
 /* IMAGE SWAP ON HOVER */
+
+/* FLOATING ANIMATION --- FLOATING ANIMATION --- FLOATING ANIMATION ---*/
+@keyframes floating {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+.anim-floating {
+	width: 150px;
+	height: 150px;
+	transform: translatey(0px);
+	animation: floating 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+/* FLOATING ANIMATION --- FLOATING ANIMATION --- FLOATING ANIMATION ---*/
