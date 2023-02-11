@@ -364,6 +364,5 @@ a.hovering:hover img:first-child {
 	height: 150px;
 	transform: translatey(0px);
 	animation: floating 6s ease-in-out infinite;
-	img { width: 100%; height: auto; }
 }
 /* FLOATING ANIMATION --- FLOATING ANIMATION --- FLOATING ANIMATION ---*/
