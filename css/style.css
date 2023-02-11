@@ -322,7 +322,7 @@ input.lereveal {
 
 .reveal input[type="checkbox"]:checked+div {
   width: 99%;
-  max-height: 99em;
+  max-height: 110em;
   opacity: 1;
   height: auto;
   overflow: hidden;
