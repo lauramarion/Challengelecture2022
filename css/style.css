@@ -371,9 +371,9 @@ a.hovering:hover img:first-child {
 	}
 }
 .anim-floating {
-	width: 150px;
-	height: 150px;
+	width: 100%;
+  text-align: center;
 	transform: translatey(0px);
-	animation: floating 6s ease-in-out infinite;
+	animation: floating 5s ease-in-out infinite;
 }
 /* FLOATING ANIMATION --- FLOATING ANIMATION --- FLOATING ANIMATION ---*/
