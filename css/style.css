@@ -328,10 +328,10 @@ input.lereveal {
   overflow: hidden;
   transition: opacity 1.5s linear, max-height 1.5s linear;
 }
-
-
 /* REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK --- REVEAL ON CLICK ---  */
-/* IMAGE SWAP ON HOVER */
+
+
+/* IMAGE SWAP ON HOVER ---  IMAGE SWAP ON HOVER ---  IMAGE SWAP ON HOVER --- */
 a.hovering img:last-child {
   display: none;  
 }
