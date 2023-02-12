@@ -377,3 +377,24 @@ a.hovering:hover img:first-child {
 	animation: floating 5s ease-in-out infinite;
 }
 /* FLOATING ANIMATION --- FLOATING ANIMATION --- FLOATING ANIMATION ---*/
+
+/* TABLEAU DES BADGES */
+.avatar {
+width: 50px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;  
+}
+
+td, th {
+  border: 1px solid #1D2142;
+  text-align: left;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #D3E5E3;
+}
+/* TABLEAU DES BADGES */
