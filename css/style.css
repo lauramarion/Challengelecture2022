@@ -43,7 +43,9 @@ h3.soustitres {
   font-weight: bold;
   margin-top: 1rem;
 }
-
+.bold {
+  font-weight: bold;
+}
 /*
 #main-title {
 }
@@ -388,13 +390,20 @@ table {
 }
 
 td, th {
-  border: 1px solid #1D2142;
+  border: 1px solid #3A4181;
   text-align: left;
   padding: 8px;
   border-radius: 50px;
 }
-
+th {
+font-weight: bold;
+}
 tr:nth-child(even) {
   background-color: #D3E5E3;
+}
+
+tr:nth-child(odd) {
+background-color: #CAF5F0;
+
 }
 /* TABLEAU DES BADGES */
